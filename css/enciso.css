@@ -1,0 +1,171 @@
+/* Utilizar unidades relativas para el tamaño de fuente y márgenes */
+.subpag {
+    margin-left: 5%; /* Margen izquierdo del 5% del ancho del contenedor */
+    margin-right: 5%; /* Margen derecho del 5% del ancho del contenedor */
+}
+
+.Subpaginas {
+    font-size: 3vw; /* Tamaño de fuente del 3% del ancho de la ventana */
+}
+
+/* Utilizar Flexbox para el diseño flexible */
+.contenedor {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columna en dispositivos móviles */
+}
+
+.imagen {
+    text-align: right; 
+    flex: 1;
+}
+
+.infoLenguaje {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.7vw; /* Tamaño de fuente relativo */
+    color: white;
+    text-align: justify;
+}
+
+/* Aplicar estilos específicos para dispositivos móviles utilizando Media Queries */
+@media (max-width: 768px) {
+
+    .imagenSub1 {
+        margin-bottom: 10vw; /* Cambia el margen inferior para dispositivos móviles */
+    }
+
+    .imagen {
+        flex: 1;
+        text-align: center; /* Centrar la imagen en dispositivos móviles */
+    }
+
+    .imagen img {
+        height: auto;
+        max-width: 100%; /* Asegurar que la imagen se ajuste al ancho del contenedor en dispositivos móviles */
+    }
+
+    header {
+        font-size: 60px; /* Reducir el tamaño de la fuente del encabezado en dispositivos móviles */
+        background-size: contain;
+        background-color: color-mix(in srgb, transparent 100%, rgb(66, 66, 219) 20%);
+        font-weight: bold;
+        text-align: center;
+        background-attachment: fixed;
+        color: rgb(16, 248, 113);
+    }
+
+    h1 {
+        color: rgb(88, 1, 250);
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 30px; /* Reducir el tamaño de la fuente de los títulos en dispositivos móviles */
+    }
+
+    li {
+        color: blanchedalmond;
+        font-size: 20px; /* Reducir el tamaño de la fuente de los elementos de la lista en dispositivos móviles */
+    }
+
+    .infoLenguaje {
+        font-size: 3vw; /* Ajuste de tamaño de fuente para dispositivos móviles */
+    }
+}
+
+/* Establecer márgenes laterales con unidades relativas */
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("image/fondo_pagina.jpg");
+    background-size: cover;
+}
+
+/* Títulos y texto en unidades relativas */
+h1 {
+    color: rgb(88, 1, 250);
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+li {
+    color: blanchedalmond;
+    font-size: 2.5vw;
+}
+
+/* Contenedor flexible */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: left; /* Centra los elementos horizontalmente */
+}
+
+/* Imagen flexible */
+.imagen {
+    text-align: right;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    text-align: right; 
+    flex: 1;
+}
+
+/* Encabezado con tamaño de fuente adaptable */
+header {
+    font-size: 6vw;
+    background-size: contain;
+    background-color: color-mix(in srgb, transparent 100%, rgb(66, 66, 219) 20%);
+    font-weight: bold;
+    text-align: center;
+    background-attachment: fixed;
+    color: rgb(16, 248, 113);
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Reducir márgenes y ajustar tamaño de fuente en dispositivos móviles */
+    body {
+        margin-left: 2%;
+        margin-right: 2%;
+        background-image: url("image/fondo_pagina.jpg");
+        background-size: cover;
+    }
+
+    h1 {
+        color: rgb(88, 1, 250);
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 5vw;
+    }
+
+    li {
+        color: blanchedalmond;
+        font-size: 4vw;
+    }
+
+    header {
+        font-size: 10vw;
+        background-size: contain;
+        background-color: color-mix(in srgb, transparent 100%, rgb(66, 66, 219) 20%);
+        font-weight: bold;
+        text-align: center;
+        background-attachment: fixed;
+        color: rgb(16, 248, 113);
+    }
+
+    .imagenSub1 {
+        margin-bottom: 10vw; /* Cambia el margen inferior para dispositivos móviles */
+    }
+}
+
+.preguntas {
+    font-size: 30px;
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagenSub1 {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+}
