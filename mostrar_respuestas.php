@@ -18,6 +18,6 @@
         echo "<p>No hay respuestas aún.</p>";
     }
     ?>
-    <p><a href="formulario.php">Volver al formulario</a></p>
+    <p><a href="index.php">Volver al formulario</a></p>
 </body>
 </html>
