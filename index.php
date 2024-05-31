@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0031)http://localhost/formulario.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <title>Formulario de Videojuegos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
+    <link href="./Formulario de Videojuegos_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <style>
     .pregunta {
         font-size: 130%;
@@ -35,12 +34,12 @@
 
     label{
         font-weight: bold;
-        text-decoration: ;
+        text-decoration: blur;
     }
-</style>
+</style></head>
 
-<body style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color: black">
-    <form style="margin-left: 5%; margin-right: 5%; margin-top:1%;background-color: lightblue" action="procesar.php" method="post">
+<body style="font-family: &#39;Lucida Sans&#39;, &#39;Lucida Sans Regular&#39;, &#39;Lucida Grande&#39;, &#39;Lucida Sans Unicode&#39;, Geneva, Verdana, sans-serif;background-color: black">
+    <form style="margin-left: 5%; margin-right: 5%; margin-top:1%;background-color: lightblue" action="procesar.html" method="post">
     <header style="padding: 20px;">
         <h1 style="text-align: center; font-weight:bold;text-decoration: underline;">Formulario de Videojuegos</h1>
         <div style="display:flex">
@@ -58,13 +57,13 @@
             
             <div>
                 <div>
-                    <input style="margin-bottom: 6px; font-size: 140%;padding-right:40px" placeholder="Nombre Apellido" type="text" id="nombre" name="nombre" required>
+                    <input style="margin-bottom: 6px; font-size: 140%;padding-right:40px" placeholder="Nombre Apellido" type="text" id="nombre" name="nombre" required="">
                 </div>
                 <div>
-                    <input style="margin-bottom: 6px; font-size: 140%;padding-right:140px" placeholder="01-01-2000" type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>            
+                    <input style="margin-bottom: 6px; font-size: 140%;padding-right:140px" placeholder="01-01-2000" type="date" id="fecha_nacimiento" name="fecha_nacimiento" required="">            
                 </div>
                 <div>                
-                    <input style="margin-bottom: 6px; font-size: 140%;padding-right:40px" placeholder="correo@mail.com" type="email" id="correo" name="correo" required>
+                    <input style="margin-bottom: 6px; font-size: 140%;padding-right:40px" placeholder="correo@mail.com" type="email" id="correo" name="correo" required="">
                 </div>         
             </div>
         </div>
@@ -73,12 +72,12 @@
 
 
         <label class="pregunta" for="juego_favorito">1. Juego Favorito:</label><br>
-        <select class="radiobtn" id="juego_favorito" name="juego_favorito" required>
+        <select class="radiobtn" id="juego_favorito" name="juego_favorito" required="">
             <option value="">Selecciona tu juego favorito</option>
             <option value="Among Us">Among Us</option>
             <option value="Animal Crossing">Animal Crossing</option>
             <option value="Apex Legends">Apex Legends</option>
-            <option value="Assassin's Creed">Assassin's Creed</option>
+            <option value="Assassin&#39;s Creed">Assassin's Creed</option>
             <option value="Call of Duty">Call of Duty</option>
             <option value="Control">Control</option>
             <option value="Counter-Strike 2">Counter-Strike 2</option>
@@ -94,7 +93,7 @@
             <option value="League of Legends">League of Legends</option>
             <option value="Lethal Company">Lethal Company</option>
             <option value="Minecraft">Minecraft</option>
-            <option value="Marvel's Spider-Man">Marvel's Spider-Man</option>
+            <option value="Marvel&#39;s Spider-Man">Marvel's Spider-Man</option>
             <option value="Mortal Kombat">Mortal Kombat</option>
             <option value="NBA 2K2X">NBA 2K2X</option>
             <option value="Persona 5">Persona 5</option>
@@ -112,9 +111,9 @@
         </select><br><br>
         
         <label class="pregunta">2. Género Favorito:</label><br>
-        <input type="radio" id="accion" name="genero_favorito" value="Acción" required>
+        <input type="radio" id="accion" name="genero_favorito" value="Acción" required="">
         <label class="radiobtn" for="accion">Acción</label><br>
-        <input type="radio" id="aventura" name="genero_favorito" value="Aventura" required>
+        <input type="radio" id="aventura" name="genero_favorito" value="Aventura" required="">
         <label class="radiobtn" for="aventura">Aventura</label><br>
         <input type="radio" id="deportes" name="genero_favorito" value="Deportes">
         <label class="radiobtn" for="deportes">Deportes</label><br>
@@ -130,7 +129,7 @@
         <label class="radiobtn" for="puzzle">Puzzle</label><br><br>
         
         <label class="pregunta">3. Plataforma Preferida:</label><br>
-        <input type="radio" id="pc" name="plataforma_favorita" value="PC" required>
+        <input type="radio" id="pc" name="plataforma_favorita" value="PC" required="">
         <label class="radiobtn" for="pc">PC</label><br>
         <input type="radio" id="playstation" name="plataforma_favorita" value="PlayStation">
         <label class="radiobtn" for="playstation">PlayStation</label><br>
@@ -142,7 +141,7 @@
         <label class="radiobtn" for="movil">Móvil</label><br><br>
 
         <label class="pregunta">4. ¿Cuánto tiempo dedicas a jugar videojuegos diariamente?</label><br>
-        <input type="radio" id="1-2horas" name="tiempo_juego" value="1-2 horas" required>
+        <input type="radio" id="1-2horas" name="tiempo_juego" value="1-2 horas" required="">
         <label class="radiobtn" for="1-2horas">1-2 horas</label><br>
         <input type="radio" id="3-5horas" name="tiempo_juego" value="3-5 horas">
         <label class="radiobtn" for="3-5horas">3-5 horas</label><br>
@@ -152,7 +151,7 @@
         <label class="radiobtn" for="masde8horas">Más de 8 horas</label><br><br>
         
         <label class="pregunta">5. ¿Con qué frecuencia compras videojuegos?</label><br>
-        <input type="radio" id="semanalmente" name="frecuencia_compra" value="Semanalmente" required>
+        <input type="radio" id="semanalmente" name="frecuencia_compra" value="Semanalmente" required="">
         <label class="radiobtn" for="semanalmente">Semanalmente</label><br>
         <input type="radio" id="mensualmente" name="frecuencia_compra" value="Mensualmente">
         <label class="radiobtn" for="mensualmente">Mensualmente</label><br>
@@ -162,7 +161,7 @@
         <label class="radiobtn" for="raravez">Rara vez</label><br><br>
 
         <label class="pregunta">6. ¿Prefieres juegos en solitario o multijugador?</label><br>
-        <input type="radio" id="solitario" name="preferencia_juego" value="Solitario" required>
+        <input type="radio" id="solitario" name="preferencia_juego" value="Solitario" required="">
         <label class="radiobtn" for="solitario">Solitario</label><br>
         <input type="radio" id="multijugador" name="preferencia_juego" value="Multijugador">
         <label class="radiobtn" for="multijugador">Multijugador</label><br>
@@ -170,7 +169,7 @@
         <label class="radiobtn" for="ambos">Ambos</label><br><br>
 
         <label class="pregunta">7. ¿Qué dispositivo usas principalmente para jugar?</label><br>
-        <input type="radio" id="pc_dispositivo" name="dispositivo_juego" value="PC" required>
+        <input type="radio" id="pc_dispositivo" name="dispositivo_juego" value="PC" required="">
         <label class="radiobtn" for="pc_dispositivo">PC</label><br>
         <input type="radio" id="consola_dispositivo" name="dispositivo_juego" value="Consola">
         <label class="radiobtn" for="consola_dispositivo">Consola</label><br>
@@ -180,19 +179,19 @@
         <label class="radiobtn" for="tablet_dispositivo">Tablet</label><br><br>
 
         <label class="pregunta">8. ¿Compras contenido descargable (DLC) para tus juegos?</label><br>
-        <input type="radio" id="si_dlc" name="compra_dlc" value="Sí" required>
+        <input type="radio" id="si_dlc" name="compra_dlc" value="Sí" required="">
         <label class="radiobtn" for="si_dlc">Sí</label><br>
         <input type="radio" id="no_dlc" name="compra_dlc" value="No">
         <label class="radiobtn" for="no_dlc">No</label><br><br>
 
         <label class="pregunta">9. ¿Participas en comunidades en línea de videojuegos?</label><br>
-        <input type="radio" id="si_comunidad" name="participacion_comunidad" value="Sí" required>
+        <input type="radio" id="si_comunidad" name="participacion_comunidad" value="Sí" required="">
         <label class="radiobtn" for="si_comunidad">Sí</label><br>
         <input type="radio" id="no_comunidad" name="participacion_comunidad" value="No">
         <label class="radiobtn" for="no_comunidad">No</label><br><br>
 
         <label class="pregunta">10. ¿Qué tan importante es la historia en un videojuego para ti?</label><br>
-        <input type="radio" id="muy_importante" name="importancia_historia" value="Muy importante" required>
+        <input type="radio" id="muy_importante" name="importancia_historia" value="Muy importante" required="">
         <label class="radiobtn" for="muy_importante">Muy importante</label><br>
         <input type="radio" id="importante" name="importancia_historia" value="Importante">
         <label class="radiobtn" for="importante">Importante</label><br>
@@ -202,7 +201,7 @@
         <label class="radiobtn" for="poco_importante">Poco importante</label><br><br>
 
         <label class="pregunta">11. ¿Cuánto dinero gastas en videojuegos al mes?</label><br>
-        <input type="radio" id="menos_10" name="gasto_mensual" value="S/Menos de 10" required>
+        <input type="radio" id="menos_10" name="gasto_mensual" value="S/Menos de 10" required="">
         <label class="radiobtn" for="menos_10">Menos de S/10</label><br>
         <input type="radio" id="11-50" name="gasto_mensual" value="S/10-30">
         <label class="radiobtn" for="11-50">S/11-50</label><br>
@@ -212,13 +211,13 @@
         <label class="radiobtn" for="mas_100">Más de S/100</label><br><br>
 
         <label class="pregunta">12. ¿Prefieres comprar juegos en formato físico o digital?</label><br>
-        <input type="radio" id="fisico" name="formato_juego" value="Físico" required>
+        <input type="radio" id="fisico" name="formato_juego" value="Físico" required="">
         <label class="radiobtn" for="fisico">Físico</label><br>
         <input type="radio" id="digital" name="formato_juego" value="Digital">
         <label class="radiobtn" for="digital">Digital</label><br><br>
 
         <label class="pregunta">13. ¿Qué género de juegos te gusta menos?</label><br>
-        <input type="radio" id="accion_menos" name="genero_menos_favorito" value="Acción" required>
+        <input type="radio" id="accion_menos" name="genero_menos_favorito" value="Acción" required="">
         <label class="radiobtn" for="accion_menos">Acción</label><br>
         <input type="radio" id="aventura_menos" name="genero_menos_favorito" value="Aventura">
         <label class="radiobtn" for="aventura_menos">Aventura</label><br>
@@ -236,13 +235,13 @@
         <label class="radiobtn" for="puzzle_menos">Puzzle</label><br><br>
 
         <label class="pregunta">14. ¿Te gustan los juegos con microtransacciones?</label><br>
-        <input type="radio" id="si_micro" name="microtransacciones" value="Sí" required>
+        <input type="radio" id="si_micro" name="microtransacciones" value="Sí" required="">
         <label class="radiobtn" for="si_micro">Sí</label><br>
         <input type="radio" id="no_micro" name="microtransacciones" value="No">
         <label class="radiobtn" for="no_micro">No</label><br><br>
 
         <label class="pregunta">15. ¿Cuántos juegos completos sueles jugar al año?</label><br>
-        <input type="radio" id="menos_5" name="juegos_anuales" value="Menos de 5" required>
+        <input type="radio" id="menos_5" name="juegos_anuales" value="Menos de 5" required="">
         <label class="radiobtn" for="menos_5">Menos de 5</label><br>
         <input type="radio" id="5-10" name="juegos_anuales" value="5-10">
         <label class="radiobtn" for="5-10">5-10</label><br>
@@ -252,7 +251,7 @@
         <label class="radiobtn" for="mas_15">Más de 15</label><br><br>
 
         <label class="pregunta">16. ¿Qué tan seguido juegas en modo cooperativo?</label><br>
-        <input type="radio" id="nunca" name="modo_cooperativo" value="Nunca" required>
+        <input type="radio" id="nunca" name="modo_cooperativo" value="Nunca" required="">
         <label class="radiobtn" for="nunca">Nunca</label><br>
         <input type="radio" id="ocasionalmente" name="modo_cooperativo" value="Ocasionalmente">
         <label class="radiobtn" for="ocasionalmente">Ocasionalmente</label><br>
@@ -262,7 +261,7 @@
         <label class="radiobtn" for="siempre">Siempre</label><br><br>
         
         <label class="pregunta">17. ¿Qué te motiva a comprar un nuevo videojuego?</label><br>
-        <input type="radio" id="novedades" name="motivacion_compra" value="Novedades" required>
+        <input type="radio" id="novedades" name="motivacion_compra" value="Novedades" required="">
         <label class="radiobtn" for="novedades">Novedades en la industria</label><br>
         <input type="radio" id="recomendacion" name="motivacion_compra" value="Recomendación de amigos">
         <label class="radiobtn" for="recomendacion">Recomendación de amigos</label><br>
@@ -272,7 +271,7 @@
         <label class="radiobtn" for="experiencia_anterior">Experiencia previa con el desarrollador</label><br><br>
 
         <label class="pregunta">18. ¿Cuál es tu opinión sobre los juegos de mundo abierto?</label><br>
-        <input type="radio" id="me_encantan" name="opinion_mundo_abierto" value="Me encantan, me sumergen en un mundo vasto y lleno de posibilidades" required>
+        <input type="radio" id="me_encantan" name="opinion_mundo_abierto" value="Me encantan, me sumergen en un mundo vasto y lleno de posibilidades" required="">
         <label class="radiobtn" for="me_encantan">Me encantan, me sumergen en un mundo vasto y lleno de posibilidades</label><br>
         <input type="radio" id="no_me_gustan" name="opinion_mundo_abierto" value="No me gustan, prefiero juegos más lineales y centrados en la historia">
         <label class="radiobtn" for="no_me_gustan">No me gustan, prefiero juegos más lineales y centrados en la historia</label><br>
@@ -280,7 +279,7 @@
         <label class="radiobtn" for="no_opinion">No tengo opinion al respecto</label><br><br>
 
         <label class="pregunta">19. ¿Qué tipo de contenido adicional valoras más en un juego (DLC)?</label><br>
-        <input type="radio" id="nuevas_historias" name="contenido_dlc" value="Nuevas historias o misiones" required>
+        <input type="radio" id="nuevas_historias" name="contenido_dlc" value="Nuevas historias o misiones" required="">
         <label class="radiobtn" for="nuevas_historias">Nuevas historias o misiones</label><br>
         <input type="radio" id="nuevos_personajes" name="contenido_dlc" value="Nuevos personajes o skins">
         <label class="radiobtn" for="nuevos_personajes">Nuevos personajes o skins</label><br>
@@ -290,7 +289,7 @@
         <label class="radiobtn" for="mejoras_jugabilidad">Mejoras en la jugabilidad o características</label><br><br>
 
         <label class="pregunta">20. ¿Qué aspecto consideras más importante al elegir un juego para comprar?</label><br>
-        <input type="radio" id="graficos" name="aspecto_importante" value="Gráficos y calidad visual" required>
+        <input type="radio" id="graficos" name="aspecto_importante" value="Gráficos y calidad visual" required="">
         <label class="radiobtn" for="graficos">Gráficos y calidad visual</label><br>
         <input type="radio" id="jugabilidad" name="aspecto_importante" value="Jugabilidad y mecánicas de juego">
         <label class="radiobtn" for="jugabilidad">Jugabilidad y mecánicas de juego</label><br>
@@ -307,5 +306,6 @@
     <footer>
         <br>
     </footer>
-</body>
-</html>
+
+
+</body></html>
